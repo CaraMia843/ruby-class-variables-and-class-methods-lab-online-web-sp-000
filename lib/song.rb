@@ -8,4 +8,8 @@ class Song
     @genre = genre
   end
   
+  def self.new 
+    @@self
+  end
+  
 end
